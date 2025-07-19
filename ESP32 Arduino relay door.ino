@@ -117,7 +117,7 @@ void setup() {
   pinMode(BUTTON1_PIN, INPUT_PULLUP);
   pinMode(BUTTON2_PIN, INPUT_PULLUP);
 
-  homeSpan.setWifiCredentials("AirPort", "QWEqwe1234567222");
+  homeSpan.setWifiCredentials("AirPort", "QWE");
   homeSpan.begin(Category::Bridges, "ESP32 Inverted Relays");
 
   new SpanAccessory();
